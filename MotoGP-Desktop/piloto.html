@@ -10,92 +10,130 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <title>MotoGP-Piloto</title>
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="icon" href="multimedia/favicon.ico" />
 </head>
 
 <body>
-    <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>MotoGP Desktop</h1>
-    <nav>
-        <a href="index.html" title="Inicio">Inicio</a>
-        <a href="piloto.html" title="Información del piloto">Piloto</a>
-        <a href="circuito.html" title="Información del circuito">Circuito</a>
-        <a href="meteorologia.html" title="Información de la meteorologia">Meteorologia</a>
-        <a href="clasificaciones.html" title="Información de las clasificaciones">Clasificaciones</a>
-        <a href="juegos.html" title="Información de los juegos">Juegos</a>
-        <a href="ayuda.html" title="Información de ayuda">Ayuda</a>
-    </nav>
-    <h2>Jack Miller</h2>
-    <p>Jack Peter Miller es un piloto de motociclismo australiano que corre actualmente en 
-        MotoGP en el equipo Prima Pramarc Racing con una Yamaha YZR-M1.
-    </p>
-    <picture>
-        <source srcset="multimedia/jackMovil.jpg" media="(max-width: 465px)"/>
-        <source srcset="multimedia/jackTablet.jpg" media="(maxwidth:799px)" />
-        <img src="multimedia/jackMonitor.jpg" alt="1"/>
-    </picture>
-    <ul>
-        <li>Fecha de nacimiento: 18 de enero de 1995</li>
-        <li>Lugar de nacimiento: Townsville, Australia</li>
-        <li>Altura: 173 cm</li>
-        <li>Peso: 64 kg</li>
-        <li>Moto: Yamaha YZR-M1</li>
-        <li>Dorsal: 43</li>
-    </ul>
-    <p>Equipos a los que ha pertenecido el piloto: </p>
-    <ol>
-        <li>Honda</li>
-        <li>Marc VDS Racing Team</li>
-        <li>Pramarc Racing</li>
-        <li>Ducati Lenovo Team</li>
-        <li>Red Bull KTM Factory Racing</li>
-        <li>Prima Pramarc Yamaha</li>
-    </ol>
-    <p>Relaccionado con MotoGP</p>
-    <dl>
-        <dt> Chicane: </dt>
-            <dd>Es una serie de curvas pronunciadas diseñadas para reducir la velocidad
-                 de los pilotos y poner a prueba su habilidad de conducción.</dd>
-        <dt> Pole:</dt>
-            <dd>Es el primer lugar en la parrilla de salida de una carrera, otorgado al piloto
-                 que logra la vuelta más rápida durante la sesión de clasificación del sábado.</dd>
-        <dt>Tacómetro:</dt>
-            <dd>Es un instrumento diseñado para medir las revoluciones por minuto (RPM) del motor. </dd>
-        <dt>Control de tracción:</dt>
-            <dd>Es un sistema electrónico fundamental que permite a los pilotos aprovechar al máximo la potencia de las
-                     motos, que desarrollan más de 250 caballos de fuerza, sin perder el control.</dd>
-        <dt>Boxes:</dt>
-            <dd>Son los garajes temporales donde los equipos montan su zona de trabajo, guardan sus herramientas
-                 y realizan mantenimiento, reparaciones y ajustes en las motocicletas durante las carreras y sesiones de entrenamiento.</dd>  
-    </dl>
-    <table>
-        <caption>Resultados MotoGP en 2024</caption>
-        <thead>
-            <tr>
-                <th>Puntos obtenidos</th>
-                <th>Posición final</th>
-                <th>Poles</th>
-                <th>Victorias</th>
-                <th>Podios</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>87</td>
-                <td>14</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-        </tbody>
-    </table>
-    <p>Enlaces relevantes:</p>
-    <nav>
-        <ul>
-            <li> <a href="https://en.wikipedia.org/wiki/Jack_Miller_(motorcyclist)">Wikipedia</a></li>
-            <li> <a href="https://www.marca.com/motor/jack-miller.html">Marca</a></li>
-        </ul>
-    </nav>
-    <p>En total, Miller ha conseguido 10 victorias en su carrera, con 4 en MotoGP, 6 en Moto3, y ha logrado 33 podios, 10 poles y 4 vueltas rápidas.
-        Su trayectoria incluye una destacada actuación en el Mundial de 125cc y Moto3, así como un impacto notable en MotoGP, donde ha demostrado ser un piloto de alto nivel, especialmente con Ducati y KTM.</p>
-</body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1><a href="index.html">MotoGP Desktop</a></h1>
+            <nav>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="piloto.html" title="Información del piloto">Piloto</a>
+            <a href="circuito.html" title="Información del circuito">Circuito</a>
+            <a href="meteorologia.html" title="Información de la meteorologia">Meteorologia</a>
+            <a href="clasificaciones.html" title="Información de las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Información de los juegos">Juegos</a>
+            <a href="ayuda.html" title="Información de ayuda">Ayuda</a>
+        </nav>
+    </header>
+    <p>Estás en: <a href="index.html" title="Inicio">Inicio</a> >> Piloto</p>
+    <main>
+        <article>
+            <header>
+                <h2>Jack Miller</h2>
+            </header>
+            <section>
+                <h3>Biografía</h3>
+                <p>Jack Peter Miller es un piloto de motociclismo australiano que corre actualmente en 
+                    MotoGP en el equipo Prima Pramarc Racing con una Yamaha YZR-M1.
+                </p>
+                <picture>
+                    <source srcset="multimedia/jackMovil.jpg" media="(max-width: 465px)"/>
+                    <source srcset="multimedia/jackTablet.jpg" media="(maxwidth:799px)" />
+                    <source srcset="multimedia/jackMonitor.jpg" media="(min-width:800px)"/>
+                    <img src="multimedia/jackMonitor.jpg" alt="Fotografía de Jack Miller"/>
+                </picture>
+            </section>
+            <section>
+                <h3>Datos personales</h3>
+                <ul>
+                    <li>Fecha de nacimiento: 18 de enero de 1995</li>
+                    <li>Lugar de nacimiento: Townsville, Australia</li>
+                    <li>Altura: 173 cm</li>
+                    <li>Peso: 64 kg</li>
+                    <li>Moto: Yamaha YZR-M1</li>
+                    <li>Dorsal: 43</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Trayectoria profesional</h3>
+                <video>
+                    <source src="multimedia/jackVideoMp.mp4" type="jackVideoMp/mp4"/>
+                    <source src="multimedia/jackVideoW.webm" type="jackVideoW/webm"/>
+                </video>
+                <p>Equipos a los que ha pertenecido el piloto: </p>
+                <ol>
+                    <li>Honda</li>
+                    <li>Marc VDS Racing Team</li>
+                    <li>Pramarc Racing</li>
+                    <li>Ducati Lenovo Team</li>
+                    <li>Red Bull KTM Factory Racing</li>
+                    <li>Prima Pramarc Yamaha</li>
+                </ol>
+            </section>
+            <aside>
+                <h3>Glosario MotoGP</h3>
+                <dl>
+                    <dt> Chicane: </dt>
+                        <dd>Es una serie de curvas pronunciadas diseñadas para reducir la velocidad
+                         de los pilotos y poner a prueba su habilidad de conducción.</dd>
+                    <dt> Pole:</dt>
+                        <dd>Es el primer lugar en la parrilla de salida de una carrera, otorgado al piloto
+                         que logra la vuelta más rápida durante la sesión de clasificación del sábado.</dd>
+                    <dt>Tacómetro:</dt>
+                        <dd>Es un instrumento diseñado para medir las revoluciones por minuto (RPM) del motor. </dd>
+                    <dt>Control de tracción:</dt>
+                        <dd>Es un sistema electrónico fundamental que permite a los pilotos aprovechar al máximo la potencia de las
+                             motos, que desarrollan más de 250 caballos de fuerza, sin perder el control.</dd>
+                    <dt>Boxes:</dt>
+                        <dd>Son los garajes temporales donde los equipos montan su zona de trabajo, guardan sus herramientas
+                         y realizan mantenimiento, reparaciones y ajustes en las motocicletas durante las carreras y sesiones de entrenamiento.</dd>  
+                </dl>
+            </aside>
+            <section>
+                <h3>Resultados MotoGP 2024</h3>
+                <table>
+                    <caption>Resultados MotoGP en 2024</caption>
+                    <thead>
+                        <tr>
+                            <th id="po">Puntos obtenidos</th>
+                            <th id="pf">Posición final</th>
+                            <th id="pl">Poles</th>
+                            <th id="v">Victorias</th>
+                            <th id="pd">Podios</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td headers="po">87</td>
+                            <td headers="pf">14</td>
+                            <td headers="pl">0</td>
+                            <td headers="v">0</td>
+                            <td headers="pd">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h3>Enlaces relevantes</h3>
+                <nav>
+                    <ul>
+                        <li> <a href="https://en.wikipedia.org/wiki/Jack_Miller_(motorcyclist)">Wikipedia sobre Jack Miller</a></li>
+                        <li> <a href="https://www.marca.com/motor/jack-miller.html">Últimas noticias del Marca</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h3>Resumen de logros</h3>
+                <p>En total, Miller ha conseguido 10 victorias en su carrera, con 4 en MotoGP, 6 en Moto3, y ha logrado 33 podios, 10 poles y 4 vueltas rápidas.
+                    Su trayectoria incluye una destacada actuación en el Mundial de 125cc y Moto3, así como un impacto notable en MotoGP, donde ha demostrado ser un piloto de alto nivel, especialmente con Ducati y KTM.</p>
+        
+            </section>
+        </article>
+        <footer>
+            <p>2025 MotoGP-Desktop. Todos los derechos reservados para Ángela Nistal Guerrero.</p>
+        </footer>
+    </main>
+    </body>
 </html>
