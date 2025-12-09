@@ -1,0 +1,65 @@
+/* Ángela Nistal Guerrero - UO301919 */
+/* Estilos generales del proyecto MotoGP-Desktop */
+
+ /* Especifidad 001*/
+ /* Tipo de letra, color de texto y fondo aplicados a body para todos los elementos */
+ body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+ }
+
+ /* Especificidad 011 */
+ /* Color del header */
+ header {
+    background-color: #f41f4e;
+    color: #ffc2c7;
+    padding: 1em;
+  }
+  
+  /* Enlaces del header */
+  header nav a {
+    color: #ffc2c7; /* Color heredado con fondo por el header */
+    text-decoration-line: none;
+    padding: 0.5em;
+    transition: color 0.2s ease, text-decoration-line 0.2s ease;
+  }
+
+  /* Estados de los enlaces del header */
+  header nav a:hover {
+    color: #ffffff; /* Color de primer plano con fondo */
+    text-decoration-line: underline;
+  }
+  header nav a:active {
+    color: #ffc2c7; /* Color de primer plano con fondo */
+    font-weight: bold;
+    text-decoration-line: underline;
+  }
+
+  /* Título y enlaces del header */
+  header h1,
+  header nav a {
+    text-decoration: none;
+  }
+
+  header h1 a {
+    color: #ffc2c7; /* Color heredado con fondo */
+  }
+
+  /* Enlace activo */
+  .active {
+    color: #ffc2c7; /* Color de primer plano con fondo */
+    font-weight: bold;
+    text-decoration: overline;
+  }
+
+  /* Migas de navegación */
+  nav > p {
+    font-size: 0.8em;
+  }
+
+  
+
+
+  
+  
