@@ -18,26 +18,26 @@ header {
 /* Especificidad 012 */ 
 /* Enlaces del header */
 a {
-  color: #2C0014; /* Hereda el background-color del body */
+  color: #3B0066; /* Hereda el background-color del body */
   text-decoration-line: none;
 }
 
 /* Especificidad 022 */ 
 /* Estados de los enlaces del header */
 a:hover, a:focus {
-  color: #4A0020; /* Hereda el background-color del body */
+  color: #5A0099; /* Hereda el background-color del body */
 }
 
 /* Especificidad 012 */ 
 /* Título y enlaces del header */
 header a {
-  color:#7B1E3A; /* Hereda el background-color del header */
+  color:#2C0014; /* Hereda el background-color del header */
 }
 
 /* Especificidad 010 */ 
 /* Enlace activo */
 .active {
-  color: #66002A; /* Hereda el background-color del body */
+  color: #7A0033; /* Hereda el background-color del body */
   font-weight: bold;
 }
 
