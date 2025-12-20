@@ -100,21 +100,21 @@ if (isset($_POST['terminar'])) {
         <form method="post">
             <h2>Preguntas del proyecto</h2>
             <p>
-                <label>1. ¿Cuál es el nombre del piloto destacado?
+                <label>1. ¿Cuál es el nombre del piloto sobre el que se habla en la página?
                     <input type="text" name="p1">
                 </label>
                 <?php mostrarError($errores, "p1"); ?>
             </p>
 
             <p>
-                <label>2. ¿Qué día fue la carrera destacada?
+                <label>2. ¿De qué son las imágenes de la página de inicio?
                     <input type="text" name="p2">
                 </label>
                 <?php mostrarError($errores, "p2"); ?>
             </p>
 
             <p>
-                <label>3. ¿Cuál es el nombre del circuito destacado?
+                <label>3. ¿Cuál es el nombre del circuito sobre el que se habla en la página?
                     <input type="text" name="p3">
                 </label>
                 <?php mostrarError($errores, "p3"); ?>
@@ -135,7 +135,7 @@ if (isset($_POST['terminar'])) {
             </p>
 
             <p>
-                <label>6. ¿Qué moto conduce el piloto destacado?
+                <label>6. ¿Cuá es el dorsal del piloto sobre el que se habla?
                     <input type="text" name="p6">
                 </label>
                 <?php mostrarError($errores, "p6"); ?>
@@ -238,5 +238,6 @@ if (isset($_POST['terminar'])) {
     <?php endif; ?>
 </body>
 </html>
+
 
 
