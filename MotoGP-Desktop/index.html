@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ángela Nistal Guerrero"/>
+    <meta name="description" content="Plantilla para el resto de documentos con la información básica"/>
+    <meta name="keywords" content="MotoGP, noticias"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>MotoGP</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <link rel="icon" href="multimedia/favicon.ico" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/noticias.js"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1><a href="index.html">MotoGP Desktop</a></h1>
+        <nav>
+            <a class="active" href="index.html" title="Inicio">Inicio</a>
+            <a href="piloto.html" title="Información del piloto">Piloto</a>
+            <a href="circuito.html" title="Información del circuito">Circuito</a>
+            <a href="meteorologia.html" title="Información de la meteorologia">Meteorologia</a>
+            <a href="clasificaciones.php" title="Información de las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Información de los juegos">Juegos</a>
+            <a href="ayuda.html" title="Información de ayuda">Ayuda</a>
+        </nav>
+     </header>
+
+    <nav>
+        <p>Estás en: <strong>Inicio</strong></p>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Imágenes del circuito de Balaton Park</h2>
+        </section>
+    
+        <section>
+            <h2>Noticias MotoGP</h2>
+        </section>    
+    </main>
+    
+    <script>
+        $(function() {
+            const carrusel = new Carrusel("circuit, Balaton");
+            carrusel.getFotografias();
+            const noticias = new Noticias("motogp");
+
+            noticias.buscar()
+                .then(datos => noticias.procesarInformacion(datos));
+        });
+    </script>
+
+</body>
+</html>
+      
