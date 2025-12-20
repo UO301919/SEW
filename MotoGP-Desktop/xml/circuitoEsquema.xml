@@ -352,15 +352,16 @@
     </tramos>              
 
     <vencedor>
-        <nombre>Pedro Acosta</nombre>
+        <nombre>Marc Márquez</nombre>
         <tiempo>PT41M52.321S</tiempo>
     </vencedor>
 
     <clasificacionMundial>
-        <piloto>Pedro Acosta</piloto>
-        <piloto>Francesco Bagnaia</piloto>
         <piloto>Marc Márquez</piloto>
+        <piloto>Francesco Bagnaia</piloto>
+        <piloto>Pedro Acosta</piloto>
     </clasificacionMundial>
 </circuito>
+
 
       
