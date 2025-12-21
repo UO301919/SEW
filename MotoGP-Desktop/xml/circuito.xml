@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+    <nombre>Balaton Park</nombre>
+    <longitudCircuito unidad="metros">4115</longitudCircuito>
+    <anchura unidad="metros">13</anchura>
+    <fecha>2025-08-24</fecha>
+    <horaInicio>14:00</horaInicio>
+    <vueltas>26</vueltas>
+    <localidad>Balatonfőkajár</localidad>
+    <pais>Hungría</pais>
+    <patrocinador>Monster Energy</patrocinador>
+
+    <referencias>
+        <referencia src="https://www.balatonparkcircuit.com">Sitio oficial Balaton Park</referencia>
+        <referencia src="https://es.wikipedia.org/wiki/Circuito_de_Balaton_Park">Wikipedia Balaton Park</referencia>
+        <referencia src="https://www.racingcircuits.info/europe/hungary/balaton-park.html#map_2025todate_2">Racing circuits hungría</referencia>
+    </referencias>
+
+    <galeriaFotos>
+        <foto src="multimedia/Panoramica.jpg" alt="Vista panorámica del circuito"/>
+        <foto src="multimedia/MapaTec.jpg" alt="Mapa técnico del circuito"/>
+    </galeriaFotos>
+
+    <galeriaVideos>
+        <video src="multimedia/BalatonCorto.mp4"/>
+    </galeriaVideos>
+
+    <puntoOrigen>
+        <longitudOrigen>18.200</longitudOrigen>
+        <latitudOrigen>47.007</latitudOrigen>
+        <altitudOrigen>120</altitudOrigen>
+    </puntoOrigen>
+
+    <tramos>
+
+        <tramo>
+            <distancia unidad="metros">36</distancia>
+            <longitud unidad="metros">18.19898</longitud>
+            <latitud>47.004687</latitud>
+            <altitud>120</altitud>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">21</distancia>
+            <longitud unidad="metros">18.19867</longitud>
+            <latitud>47.004635</latitud>
+            <altitud>120</altitud>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">89</distancia>
+            <longitud unidad="metros">18.198488</longitud>
+            <latitud>47.004723</latitud>
+            <altitud>120</altitud>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">25</distancia>
+            <longitud unidad="metros">18.198404</longitud>
+            <latitud>47.005525</latitud>
+            <altitud>120</altitud>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">22</distancia>
+            <longitud unidad="metros">18.198253</longitud>
+            <latitud>47.005726</latitud>
+            <altitud>120</altitud>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">30</distancia>
+            <longitud unidad="metros">18.198002</longitud>
+            <latitud>47.005788</latitud>
+            <altitud>120</altitud>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">66</distancia>
+            <longitud unidad="metros">18.197729</longitud>
+            <latitud>47.005747</latitud>
+            <altitud>120</altitud>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">23</distancia>
+            <longitud unidad="metros">18.197213</longitud>
+            <latitud>47.005111</latitud>
+            <altitud>120</altitud>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">30</distancia>
+            <longitud unidad="metros">18.197153</longitud>
+            <latitud>47.004904</latitud>
+            <altitud>120</altitud>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">120</distancia>
+            <longitud unidad="metros">18.197175</longitud>
+            <latitud>47.004630</latitud>
+            <altitud>120</altitud>
+            <sector>4</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">25</distancia>
+            <longitud unidad="metros">18.198260</longitud>
+            <latitud>47.003631</latitud>
+            <altitud>120</altitud>
+            <sector>4</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">40</distancia>
+            <longitud unidad="metros">18.198571</longitud>
+            <latitud>47.003559</latitud>
+            <altitud>120</altitud>
+            <sector>4</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">45</distancia>
+            <longitud unidad="metros">18.199011</longitud>
+            <latitud>47.003585</latitud>
+            <altitud>120</altitud>
+            <sector>4</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">330</distancia>
+            <longitud unidad="metros">18.199391</longitud>
+            <latitud>47.003766</latitud>
+            <altitud>120</altitud>
+            <sector>5</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">590</distancia>
+            <longitud unidad="metros">18.202918</longitud>
+            <latitud>47.008437</latitud>
+            <altitud>120</altitud>
+            <sector>6</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">9</distancia>
+            <longitud unidad="metros">18.203015</longitud>
+            <latitud>47.008483</latitud>
+            <altitud>120</altitud>
+            <sector>6</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">14</distancia>
+            <longitud unidad="metros">18.203194</longitud>
+            <latitud>47.008502</latitud>
+            <altitud>120</altitud>
+            <sector>6</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">14</distancia>
+            <longitud unidad="metros">18.203363</longitud>
+            <latitud>47.008448</latitud>
+            <altitud>120</altitud>
+            <sector>6</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">70</distancia>
+            <longitud unidad="metros">18.204004</longitud>
+            <latitud>47.007991</latitud>
+            <altitud>120</altitud>
+            <sector>7</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">18</distancia>
+            <longitud unidad="metros">18.204254</longitud>
+            <latitud>47.007971</latitud>
+            <altitud>120</altitud>
+            <sector>7</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">130</distancia>
+            <longitud unidad="metros">18.205956</longitud>
+            <latitud>47.008106</latitud>
+            <altitud>120</altitud>
+            <sector>8</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">30</distancia>
+            <longitud unidad="metros">18.206362</longitud>
+            <latitud>47.008048</latitud>
+            <altitud>120</altitud>
+            <sector>8</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">34</distancia>
+            <longitud unidad="metros">18.206770</longitud>
+            <latitud>47.007931</latitud>
+            <altitud>120</altitud>
+            <sector>8</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">27</distancia>
+            <longitud unidad="metros">18.207070</longitud>
+            <latitud>47.007791</latitud>
+            <altitud>120</altitud>
+            <sector>8</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">60</distancia>
+            <longitud unidad="metros">18.207547</longitud>
+            <latitud>47.007396</latitud>
+            <altitud>120</altitud>
+            <sector>8</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">410</distancia>
+            <longitud unidad="metros">18.208979</longitud>
+            <latitud>47.003939</latitud>
+            <altitud>120</altitud>
+            <sector>9</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">20</distancia>
+            <longitud unidad="metros">18.209212</longitud>
+            <latitud>47.003827</latitud>
+            <altitud>120</altitud>
+            <sector>9</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">27</distancia>
+            <longitud unidad="metros">18.209549</longitud>
+            <latitud>47.003854</latitud>
+            <altitud>120</altitud>
+            <sector>9</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">15</distancia>
+            <longitud unidad="metros">18.209712</longitud>
+            <latitud>47.003783</latitud>
+            <altitud>120</altitud>
+            <sector>9</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">145</distancia>
+            <longitud unidad="metros">18.210073</longitud>
+            <latitud>47.002534</latitud>
+            <altitud>120</altitud>
+            <sector>10</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">30</distancia>
+            <longitud unidad="metros">18.210447</longitud>
+            <latitud>47.002432</latitud>
+            <altitud>120</altitud>
+            <sector>10</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">20</distancia>
+            <longitud unidad="metros">18.210700</longitud>
+            <latitud>47.002500</latitud>
+            <altitud>120</altitud>
+            <sector>10</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">30</distancia>
+            <longitud unidad="metros">18.210853</longitud>
+            <latitud>47.002734</latitud>
+            <altitud>120</altitud>
+            <sector>10</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">360</distancia>
+            <longitud unidad="metros">18.209865</longitud>
+            <latitud>47.005804</latitud>
+            <altitud>120</altitud>
+            <sector>11</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">110</distancia>
+            <longitud unidad="metros">18.209302</longitud>
+            <latitud>47.006773</latitud>
+            <altitud>120</altitud>
+            <sector>12</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">130</distancia>
+            <longitud unidad="metros">18.208259</longitud>
+            <latitud>47.007754</latitud>
+            <altitud>120</altitud>
+            <sector>13</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">120</distancia>
+            <longitud unidad="metros">18.206983</longitud>
+            <latitud>47.008449</latitud>
+            <altitud>120</altitud>
+            <sector>14</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">210</distancia>
+            <longitud unidad="metros">18.204601</longitud>
+            <latitud>47.009329</latitud>
+            <altitud>120</altitud>
+            <sector>15</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">18</distancia>
+            <longitud unidad="metros">18.204579</longitud>
+            <latitud>47.009489</latitud>
+            <altitud>120</altitud>
+            <sector>15</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">38</distancia>
+            <longitud unidad="metros">18.204687</longitud>
+            <latitud>47.009806</latitud>
+            <altitud>120</altitud>
+            <sector>15</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">100</distancia>
+            <longitud unidad="metros">18.203798</longitud>
+            <latitud>47.010375</latitud>
+            <altitud>120</altitud>
+            <sector>16</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">100</distancia>
+            <longitud unidad="metros">18.202439</longitud>
+            <latitud>47.010214</latitud>
+            <altitud>120</altitud>
+            <sector>16</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">20</distancia>
+            <longitud unidad="metros">18.202341</longitud>
+            <latitud>47.010061</latitud>
+            <altitud>120</altitud>
+            <sector>16</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">70</distancia>
+            <longitud unidad="metros">18.202454</longitud>
+            <latitud>47.009409</latitud>
+            <altitud>120</altitud>
+            <sector>16</sector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">130</distancia>
+            <longitud unidad="metros">18.201684</longitud>
+            <latitud>47.008323</latitud>
+            <altitud>120</altitud>
+            <sector>17</sector>
+        </tramo>
+        
+    </tramos>
+
+    <vencedor>
+        <nombre>Pedro Acosta</nombre>
+        <tiempo>41:52.321</tiempo>
+    </vencedor>
+
+    <clasificacionMundial>
+        <piloto>Pedro Acosta</piloto>
+        <piloto>Francesco Bagnaia</piloto>
+        <piloto>Marc Márquez</piloto>
+    </clasificacionMundial>
+</circuito>
+
+      
