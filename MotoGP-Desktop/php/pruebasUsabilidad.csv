@@ -1,8 +1,0 @@
-id_usuario;profesion;edad;genero;pericia_informatica;id_prueba;dispositivo;tiempo_segundos;completado;comentarios_usuario;mejoras;valoracion;id_observacion;comentarios_facilitador
-1;trabajadora social;52;femenino;1;1;telefono;1095;1;pagina sencilla y accesible;no se me ocurren;8;1;Hay algunas preguntas dificiles de buscar las respuestas o con respuestas que no pertenecen a la información de la página. Complicadas para usuarios novatos
-2;r;4;masculino;0;2;ordenador;381;1;r;r;0;2;45
-3;Estudiante;22;masculino;7;3;ordenador;310;1;Satisfecho;que los archivos queden guardados dentro de la pagina y no haya que volver a abrirlos ;9;3;Prueba realizada con éxito, bastante ágil
-4;Camionero;53;masculino;6;4;tableta;558;1;en general bien;ninguna;7;4;en la página del piloto no se garantiza del todo la adaptabilidad en el menú
-5;Electricista;20;masculino;7;5;telefono;562;1;esta bien;Las fotos del carrusel no son de la mejor calidad ni su tamaño;8;5;Algunas fotos se ven pixeladas
-6;Estudiante;18;otro;9;6;tableta;578;1;No me agrada el color de la página.;Mejorar el color de la página.;7;6;Todo bien. Jugó al juego de memoria.
-7;Psic�logo;30;femenino;5;7;ordenador;453;1;bien;en la informacion adiccional del piloto separarlo m�s visualemente;8;7;Todo bien.
